@@ -21,6 +21,14 @@
  - git
  - npm (node)
  - 安装 nginx 需要安装firewall和ipservices
+   - nginx php 跨站攻击解决策略
+      - conf/nginx.conf.d 下 test.conf
+      - 正则校验php请求
+      - 开启 SecRulesEnabled ,并配置白名单（
+        baserule 例子: BasicRule wl:1315 "mz:$HEADERS_VAR:Cookie";
+        配置语法：搜索)
+      - 查看Nginx作为webService服务器的拦截规则
+         例子 ： BasicRule wl:1315 "mz:$HEADERS_VAR:Cookie";
  - 解压缩工具  tar  xz 等
 #### Linux查看版本当前操作系统内核信息
  - uname -a
