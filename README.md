@@ -30,6 +30,7 @@
       - 查看Nginx作为webService服务器的拦截规则 vim naxsi_core.rules
          例子 ： BasicRule wl:1315 "mz:$HEADERS_VAR:Cookie";
  - 解压缩工具  tar  xz 等
+### 环境搭建需要先查找服务器的版本信息
 #### Linux查看版本当前操作系统内核信息
  - uname -a
 #### Linux查看当前操作系统版本信息
@@ -45,3 +46,7 @@
  - getconf LONG_BIT
 #### 查询所有版本信息：
  - lsb_release -a
+ 
+#### Java 安装
+  ######http://www.cnblogs.com/zs-notes/p/8535275.html
+  
