@@ -48,5 +48,5 @@
  - lsb_release -a
  
 #### Java 安装
-  ######http://www.cnblogs.com/zs-notes/p/8535275.html
+  ###### http://www.cnblogs.com/zs-notes/p/8535275.html
   
